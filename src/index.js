@@ -11,7 +11,7 @@ import Blog from "./Pages/Blog/Blog";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router basemname={`/${process.env.PUBLIC_URL}`}>
+    <Router>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="works" element={<Works />} />
