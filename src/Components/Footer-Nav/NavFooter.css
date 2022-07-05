@@ -1,0 +1,20 @@
+.navFooter_container {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navfooter_list {
+  padding: 83px 120px;
+}
+.navfooter_list__item {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+  margin: 0px 80px;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #000;
+}
