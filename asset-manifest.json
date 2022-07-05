@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rootfellen/portfolio/static/css/main.97cb0b7b.css",
+    "main.js": "/rootfellen/portfolio/static/js/main.23d6306c.js",
+    "static/media/guy.svg": "/rootfellen/portfolio/static/media/guy.6d5762d138e463429a73987e73c3bb30.svg",
+    "static/media/bulb.svg": "/rootfellen/portfolio/static/media/bulb.f5313dd11123eb46d506d740d0402bcf.svg",
+    "index.html": "/rootfellen/portfolio/index.html",
+    "main.97cb0b7b.css.map": "/rootfellen/portfolio/static/css/main.97cb0b7b.css.map",
+    "main.23d6306c.js.map": "/rootfellen/portfolio/static/js/main.23d6306c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97cb0b7b.css",
+    "static/js/main.23d6306c.js"
+  ]
+}
