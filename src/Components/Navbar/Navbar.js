@@ -1,21 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
+import MobileNavigation from "../MobileNavigation/MobileNavigation";
+import Navigation from "../Navigation/Navigation";
+import cl from "./Navbar.module.css";
 const Navbar = () => {
   return (
-    <>
-      <ul className="nav_list">
-        <Link className="nav_list__item" to="works">
-          works
-        </Link>
-        <Link className="nav_list__item" to="about">
-          about
-        </Link>
-        <Link className="nav_list__item" to="contact">
-          contact
-        </Link>
-      </ul>
-    </>
+    <div className={cl.Navbar}>
+      <Navigation />
+      <MobileNavigation />
+    </div>
   );
 };
 

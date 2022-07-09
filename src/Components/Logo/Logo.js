@@ -3,8 +3,9 @@ import "./Logo.css";
 
 const Logo = () => {
   return (
-    <div className="logo">
-      serhii T.<span className="position">front-end developer</span>
+    <div className="logo-container">
+      <h1 className="logo-title">serhii T.</h1>
+      <p className="logo-position">front-end developer</p>
     </div>
   );
 };

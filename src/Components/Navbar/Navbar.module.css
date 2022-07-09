@@ -1,0 +1,45 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+}
+.Navbar .MobileNavigation {
+  display: none;
+}
+
+.nav_list {
+  display: flex;
+  flex: 1 0 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_list__item {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000;
+  margin-left: 2.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.nav_list__item:hover {
+  background-color: #dfb4fe;
+}
+
+@media screen and (max-width: 990px) {
+  .Navbar .MobileNavigation {
+    display: flex;
+    flex-direction: column;
+  }
+  .bm-item-list > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .Navbar .Navigation {
+    display: none;
+  }
+  .navList {
+    display: flex;
+    flex-direction: column;
+  }
+}

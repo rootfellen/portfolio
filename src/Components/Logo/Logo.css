@@ -1,12 +1,24 @@
-.logo {
+.logo-container {
   display: flex;
-  flex: 3;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 50%;
+}
+.logo-title {
+  align-self: flex-start;
   font-size: 2.25rem;
   font-weight: 800;
-  flex-direction: column;
 }
 
-.position {
+.logo-position {
+  align-self: flex-start;
   font-size: 0.875rem;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1280px) {
+  .logo-container {
+    flex: 1 1 80%;
+  }
 }

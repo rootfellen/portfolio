@@ -6,19 +6,20 @@ import Navbar from "./Components/Navbar/Navbar";
 import Quotes from "./Components/Quotes/Quotes";
 import Socials from "./Components/Socials/Socials";
 import Title from "./Components/Title/Title";
+import Character from "./Components/Character/Character";
 
 const App = () => {
   return (
     <>
-      <div className="hero_container">
-        <Logo />
-        <Socials />
-        <Navbar />
-      </div>
-      <div className="wrapper">
-        <Quotes />
-        <Title />
-        <NavFooter />
+      <div className="container">
+        <header className="header">
+          <Logo />
+          <Socials />
+          <Navbar />
+        </header>
+        <main className="hero">
+          <Character />
+        </main>
       </div>
     </>
   );
