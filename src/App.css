@@ -63,7 +63,18 @@ body {
 }
 
 .hero {
+  background-color: #fff;
+  height: 84vh;
+  position: relative;
+}
+
+.box {
   background-color: #f3d772;
+  position: absolute;
+  width: 93vw;
+  top: 0;
+  right: 0;
+  z-index: 1;
   height: 84vh;
 }
 
@@ -80,5 +91,10 @@ body {
   .header {
     margin: 0rem 0.5rem;
     padding: 4rem 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100vw;
   }
 }

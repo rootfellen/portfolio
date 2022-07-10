@@ -5,10 +5,11 @@
   left: 50%;
   max-width: 35%;
   width: 100%;
-  height: 40.25rem;
+  height: 35.25rem;
   margin-left: -17.5%;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .socials-list {
@@ -52,5 +53,23 @@
 @media screen and (max-width: 640px) {
   .socials-wrapper {
     height: 20rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .socials-list--item {
+    margin-right: 1rem;
+  }
+  .socials-wrapper {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .socials-list--item {
+    margin-right: 0.5rem;
+  }
+  .socials-wrapper {
+    height: 12rem;
   }
 }

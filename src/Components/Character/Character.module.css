@@ -1,0 +1,55 @@
+.characterContainer {
+  position: absolute;
+  max-width: 700px;
+  top: -50px;
+  right: 50%;
+  margin-right: -350px;
+  z-index: 6;
+}
+
+.characterImage {
+  width: 100%;
+  z-index: 3;
+}
+
+@media screen and (max-width: 990px) {
+  .characterContainer {
+    max-width: 550px;
+    margin-right: -275px;
+    top: 110px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .characterContainer {
+    max-width: 550px;
+    margin-right: -275px;
+    top: 120px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .characterContainer {
+    max-width: 500px;
+    margin-right: -250px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .characterContainer {
+    max-width: 300px;
+    margin-right: -150px;
+    top: 160px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .characterContainer {
+    top: 220px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .characterContainer {
+    display: none;
+  }
+}
