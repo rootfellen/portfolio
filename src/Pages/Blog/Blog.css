@@ -1,3 +1,18 @@
+.container {
+  position: relative;
+}
 .blogContainer {
   background-color: lightsalmon;
+  text-align: center;
+}
+.posts {
+  font-weight: 800;
+  max-width: 50%;
+  width: 100%;
+  margin-left: -25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  border-radius: 7px;
 }

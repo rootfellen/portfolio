@@ -21,6 +21,7 @@
   padding-bottom: 1.3rem;
   border-bottom: 3px solid #000;
   transition: 0.3s ease-in-out;
+  z-index: 10;
 }
 
 .navfooter_list__item:hover {

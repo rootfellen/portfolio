@@ -1,12 +1,14 @@
 import React from "react";
 import "./Logo.css";
+import { Link } from "react-router-dom";
 
-const Logo = () => {
+const Logo = (props) => {
+  console.log(props);
   return (
-    <div className="logo-container">
+    <Link to="/" className="logo-container">
       <h1 className="logo-title">serhii T.</h1>
       <p className="logo-position">front-end developer</p>
-    </div>
+    </Link>
   );
 };
 

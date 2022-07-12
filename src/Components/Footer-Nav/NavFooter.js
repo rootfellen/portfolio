@@ -6,13 +6,22 @@ const NavFooter = () => {
   return (
     <div className="navFooter_container">
       <ul className="navfooter_list">
-        <Link className="navfooter_list__item" to="works">
+        <a
+          className="navfooter_list__item"
+          href="../../assets/CV/Serhii Tarasenko CV.pdf"
+          download
+        >
           download cv
-        </Link>
-        <Link className="navfooter_list__item" to="works">
+        </a>
+        <a
+          className="navfooter_list__item"
+          href="https://github.com/rootfellen?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
           latest works
-        </Link>
-        <Link className="navfooter_list__item" to="blog">
+        </a>
+        <Link className="navfooter_list__item" to="/blog">
           blog
         </Link>
       </ul>

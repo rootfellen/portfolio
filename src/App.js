@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import "./App.css";
 import NavFooter from "./Components/Footer-Nav/NavFooter";
 import Logo from "./Components/Logo/Logo";
@@ -9,6 +9,12 @@ import Title from "./Components/Title/Title";
 import Character from "./Components/Character/Character";
 
 const App = () => {
+  const [light, setLight] = useState(true);
+
+  function handleLight() {
+    setLight(!light);
+    console.log(light);
+  }
   return (
     <>
       <div className="container">
@@ -22,7 +28,7 @@ const App = () => {
           <Character />
           <Title />
           <NavFooter />
-          <Quotes />
+          <Quotes handleLight={handleLight} light={light} />
         </main>
       </div>
     </>

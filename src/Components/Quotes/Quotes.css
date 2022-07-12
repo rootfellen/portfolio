@@ -20,6 +20,7 @@
 
 .quote_image img {
   width: 100%;
+  color: red;
 }
 
 @media screen and (max-width: 990px) {

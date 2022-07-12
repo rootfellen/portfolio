@@ -5,13 +5,13 @@ import cl from "./NavLinks.module.css";
 const NavLinks = () => {
   return (
     <>
-      <Link className={cl.nav_list__item} to="works">
+      <Link className={cl.nav_list__item} to="/works">
         works
       </Link>
-      <Link className={cl.nav_list__item} to="about">
+      <Link className={cl.nav_list__item} to="/about">
         about
       </Link>
-      <Link className={cl.nav_list__item} to="contact">
+      <Link className={cl.nav_list__item} to="/contact">
         contact
       </Link>
     </>
