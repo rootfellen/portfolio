@@ -13,7 +13,6 @@ const App = () => {
 
   function handleLight() {
     setLight(!light);
-    console.log(light);
   }
   return (
     <>

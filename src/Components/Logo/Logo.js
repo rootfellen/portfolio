@@ -3,7 +3,6 @@ import "./Logo.css";
 import { Link } from "react-router-dom";
 
 const Logo = (props) => {
-  console.log(props);
   return (
     <Link to="/" className="logo-container">
       <h1 className="logo-title">serhii T.</h1>

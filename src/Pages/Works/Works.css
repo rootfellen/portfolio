@@ -1,3 +1,22 @@
-.works-container {
-  background-color: red;
+.worksContainer {
+  background-color: aquamarine;
+}
+.worksWrapper {
+  font-weight: 800;
+  max-width: 90%;
+  width: 100%;
+  margin-left: -45%;
+  /* margin-top: -35%; */
+  /* min-height: 90%; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  z-index: 100;
+  border-radius: 7px;
+  background-color: #fff;
+  padding: 2rem;
 }

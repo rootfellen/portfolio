@@ -1,0 +1,72 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3d772;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.workImage {
+  flex: 1 1 70%;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.workImage img {
+  width: 100%;
+  position: relative;
+}
+
+.workInfo {
+  font-size: 1rem;
+  flex: 1 1 30%;
+  align-self: flex-end;
+}
+
+.workTitle {
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+}
+.workDescription {
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0rem 1rem;
+}
+
+.workLinks {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.workLinks > li {
+  display: flex;
+  flex: 1 1 30%;
+  border-top: 1px solid black;
+  transition: 0.3s ease-in-out;
+}
+.workLinks > li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.workLinks > li:nth-child(1):hover {
+  background-color: aquamarine;
+}
+.workLinks > li:nth-child(2):hover {
+  background-color: #dfb4fe;
+}
+.workLinks > li:nth-child(3):hover {
+  background-color: lightsalmon;
+}
+.workLinks > li > a {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem 0rem;
+  color: #000;
+}
