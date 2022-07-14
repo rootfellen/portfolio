@@ -2,6 +2,7 @@ import React from "react";
 import cl from "./Work.module.css";
 import { AiFillGithub, AiOutlineRead } from "react-icons/ai";
 import { MdWeb } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Work = (props) => {
   return (
@@ -24,10 +25,10 @@ const Work = (props) => {
                 <MdWeb />
               </a>
             </li>
-            <li>
-              <a href={props.about}>
+            <li key={props.id}>
+              <Link name={props.name} to={"/work-description/" + props.id}>
                 <AiOutlineRead />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

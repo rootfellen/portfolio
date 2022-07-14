@@ -1,0 +1,75 @@
+.workDescriptionContainer {
+  min-height: 100vh;
+  background-color: #f3d772;
+}
+.header {
+  background-color: aliceblue;
+}
+.workDescription {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: auto;
+  padding: 4rem 3rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -30%;
+  z-index: 10;
+}
+.workDescriptionInfo {
+  margin-left: 2rem;
+  flex: 0 1 50%;
+}
+.workDescriptionImage {
+  flex: 1 1 50%;
+}
+
+.workDescriptionImage img {
+  width: 100%;
+}
+.idea,
+.features {
+  margin-top: 1rem;
+}
+
+.idea > span,
+.features > span {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .workDescription {
+    width: 50%;
+    padding: 2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -25%;
+  }
+  .workDescriptionImage {
+    max-width: 300px;
+  }
+  .workDescriptionInfo {
+    margin-left: 0rem;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .workDescription {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .workTitle {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+  }
+  .workDescriptionInfo {
+    width: 100%;
+  }
+}

@@ -15,7 +15,7 @@ const Works = () => {
       description={work.description}
       github={work.github}
       live={work.live}
-      about={work.about}
+      id={work.id}
     />
   ));
   return (
