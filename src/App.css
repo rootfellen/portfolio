@@ -26,25 +26,6 @@ body {
   overflow: hidden;
 }
 
-/* .wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  padding: 40px 0px;
-}
-
-.content {
-  background-color: yellow;
-  flex: 1 1 auto;
-  max-width: 100rem;
-  margin: 0px auto;
-} */
-
 .container {
   min-height: 100vh;
 }
